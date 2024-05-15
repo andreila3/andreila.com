@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog Post - Spirited Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .back {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .back a {
+            text-decoration: none;
+            color: blue;
+        }
+        .back a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="index.html">&larr; Back to Home</a>
+    </div>
+    <h1>My First Blog Post</h1>
+    <p>2024-05-15</p>
+    <p>Welcome to my first blog post! This is where I share my thoughts and experiences. Stay tuned for more updates!</p>
+</body>
+</html>
