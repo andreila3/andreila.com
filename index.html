@@ -3,61 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Website</title>
+    <title>Spirited Home</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
+        li {
+            margin-bottom: 10px;
         }
-        main {
-            flex: 1;
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-        nav {
-            margin: 10px 0;
-        }
-        nav a {
-            margin: 0 15px;
+        a {
             text-decoration: none;
-            color: white;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Home</h2>
-        <p>This is a simple HTML website example. You can add more content here as needed.</p>
-        <h2 id="about">About</h2>
-        <p>This section can contain information about you or your website.</p>
-        <h2 id="contact">Contact</h2>
-        <p>Here you can put your contact information or a contact form.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+    <h1>Spirited Home</h1>
+    <ul>
+        <li><a href="post1.html">2024-05-15: My First Blog Post</a></li>
+        <li><a href="post2.html">2024-05-16: Another Day, Another Post</a></li>
+        <!-- Add more posts here -->
+    </ul>
 </body>
 </html>
+
